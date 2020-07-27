@@ -9,8 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
-    // other imports ...
+    BrowserModule,
     HttpClientModule
   ],
   providers: [],
