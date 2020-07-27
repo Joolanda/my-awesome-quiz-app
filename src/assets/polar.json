@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Where do Polar Bears live?",
+    "choices": [
+      {"value": "Antartic", "correct": false},
+      {"value": "North Pole", "correct": true},
+      {"value": "Belgium", "correct": false},
+      {"value": "Poland", "correct": false}
+    ]
+  },
+  {
+    "label": "What color are polar bears hairs?",
+    "choices": [
+      {"value": "white", "correct": false},
+      {"value": "green", "correct": false},
+      {"value": "transparent", "correct": true},
+      {"value": "polaroid", "correct": false}
+    ]
+  }
+]
