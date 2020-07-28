@@ -9,10 +9,12 @@ import { QuestionFormComponent } from './question-form/question-form.component';
 import { ResultsComponent } from './results/results.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
+import { QuestionsComponent } from './questions/questions.component';
+
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
-  { path: 'quizId', component: QuestionsComponent },
-  { path. '', redirectTo. "welcome", pathMatch: "prefix" },
+  { path: ':quizId', component: QuestionsComponent },
+  { path: '', redirectTo: "welcome", pathMatch: "prefix"},
 ];
 
 @NgModule({
@@ -20,6 +22,7 @@ const appRoutes: Routes = [
     AppComponent,
     QuestionFormComponent,
     ResultsComponent,
+    QuestionsComponent,
     WelcomeComponent,
   ],
   imports: [
