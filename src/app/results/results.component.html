@@ -3,4 +3,9 @@
     <div class="answer" *ngFor="let a for answers.values" 
           [ngClass]="{correct: a.correct">{{a.value}} 
     </div>
+    <div>
+      <button color="primary" class="btn btn-primary">
+        <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+      </button>> 
+    </div>
   </div>
