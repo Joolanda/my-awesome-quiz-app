@@ -21,8 +21,8 @@ export class QuestionFormComponent implements OnInit {
 
     this.form.valueChanges.subscribe(this.onChange);
   }
+
   onChange = () => {
     this.onChoiceMade.emit(this.form.value.choice);
   }
-
 }
