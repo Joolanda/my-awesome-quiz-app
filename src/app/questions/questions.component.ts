@@ -37,11 +37,11 @@ export class QuestionsComponent implements OnInit {
   }
 
   updateChoice(choice: Choice) {
-    this.answers.values[this.currentQuestionIndex] = xhoice;
+    this.answers.values[this.currentQuestionIndex] = choice;
   }
 
   nextOrViewResults() {
-    if (this.currentQuestionIndex === this.questions.lenght -1) {
+    if (this.currentQuestionIndex === this.questions.length -1) {
       this.showResults = true;
       return;
     }
@@ -55,5 +55,5 @@ export class QuestionsComponent implements OnInit {
     this.answers = undefined;
     this.currentQuestionIndex = undefined;
   }
-  
+
 }
