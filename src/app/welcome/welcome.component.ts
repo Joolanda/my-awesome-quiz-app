@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { QuestionsService } from '../questions.service';
 import { Quiz } from '../quiz.model';
 
 @Component({
@@ -8,6 +9,9 @@ import { Quiz } from '../quiz.model';
 })
 export class WelcomeComponent implements OnInit {
   quiz: Quiz[];
+
+  
+
 }
 
 
