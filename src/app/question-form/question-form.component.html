@@ -2,12 +2,14 @@
   <h1 class="title">{{question.label}}</h1>
   <form [formGroup]="form">
     <mat-card-content class="form-group">
-      <label *ngFor="let choice of question.choices">
+      <mat-card-actions>
+      <label *ngFor="let choice of question.choices" class="label">
         <input type="radio" [value]="choice" formControlName="choice">
         <ul>
-        <li><span>{{choice.value}}</span></li>
+        <span>{{choice.value}}</span>
       </ul>
       </label>
+    </mat-card-actions>
     </mat-card-content>
   </form>
 </div>

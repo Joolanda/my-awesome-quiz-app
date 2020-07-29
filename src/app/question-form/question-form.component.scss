@@ -11,7 +11,7 @@ body{
 }
 
 mat-card{
-  width: 50%;
+  width: 75%;
   margin: auto;
   text-align: center;
   background-color:#356859;
@@ -21,6 +21,17 @@ mat-card{
   margin: auto;
   background-color: #FFFBE6;
   color: #FD5523;
-  ;
   font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.form-group{
+  align-content: space-between;
+}
+
+mat-card-actions {
+  display: inline-flexbox;
+  padding: 15px;
 }

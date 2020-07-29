@@ -20,21 +20,27 @@ body{
   background-color: 356859;
 }
 
-mat-card{
-  width: 75%;
+mat-card {
+  max-width:300px;
   margin: auto;
   text-align: center;
-  background-color: #B9E4C9;
+  background:#FFFBE6; 
 }
 
 .title{
-  margin: auto;
   background-color: #FFFBE6;
   color: #FD5523;
   font-size: 26px;
   padding-bottom: 20%;
   text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 20px;
 
+}
+
+.mat-card-actions {
+  width:100%;
 }
 
 .mat-app-background{

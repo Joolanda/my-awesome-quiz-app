@@ -3,7 +3,10 @@
 }
 
 mat-card{
-  width: 256px
+  max-width: 300px;
+  margin: auto;
+  margin: auto;
+  text-align: center;
 }
 
 body{
@@ -15,13 +18,6 @@ body{
 
 .btn-success{
   background-color: #FD5523;
-}
-
-mat-card{
-  width: 50%;
-  margin: auto;
-  text-align: center;
-
 }
 
 .title{

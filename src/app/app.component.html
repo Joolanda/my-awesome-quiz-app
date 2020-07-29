@@ -6,7 +6,7 @@
       (onChoiceMade)="updateChoice($event)">
     </app-question-form>
 
-    <button
+    <button 
       class="btn btn-success btn-primary"
       (click)="nextOrViewResults()"
       [disabled]="!answers.values[currentQuestionIndex]">
