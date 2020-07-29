@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Where are wild giant pandas found?",
+    "choices": [
+      {"value": "Europe", "correct": false},
+      {"value": "China", "correct": true},
+      {"value": "Pandora", "correct": false},
+      {"value": "Japan", "correct": false}
+    ]
+  },
+  {
+    "label": "What do panda bears mainly eat?",
+    "choices": [
+      {"value": "Beef", "correct": false},
+      {"value": "Bananas", "correct": false},
+      {"value": "Bamboo", "correct": true},
+      {"value": "Nuts!", "correct": false}
+    ]
+  }
+]

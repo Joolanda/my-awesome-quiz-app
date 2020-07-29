@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Polar",
+    "name": "polar",
+    "description": "How much do you know about polar bears?",
+    "fileName": "polar.json"
+  },
+  {
+    "label": "Panda",
+    "name": "panda",
+    "description": "Test your knowledge of panda bears",
+    "fileName": "panda.json"
+  }
+]
