@@ -2,13 +2,13 @@
   {
     "label": "Polar",
     "name": "polar",
-    "description": "Questions about polar bears",
+    "description": "How much do you know about polar bears?",
     "fileName": "polar.json"
   },
   {
     "label": "Panda",
     "name": "panda",
-    "description": "Questions about panda bears",
+    "description": "Test your knowledge of panda bears",
     "fileName": "panda.json"
   }
 ]

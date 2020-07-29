@@ -7,7 +7,7 @@
     </app-question-form>
 
     <button
-      class="btn btn-success"
+      class="btn btn-success btn-primary"
       (click)="nextOrViewResults()"
       [disabled]="!answers.values[currentQuestionIndex]">
       {{currentQuestionIndex === quiz.questions.length - 1 ? 'View results' : 'Next'}}

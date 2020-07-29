@@ -28,7 +28,6 @@ const appRoutes: Routes = [
     ResultsComponent,
     QuestionsComponent,
     WelcomeComponent,
-    BrowserAnimationsModule,
   ],
   imports: [
     BrowserModule,
